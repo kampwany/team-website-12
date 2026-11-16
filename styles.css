@@ -117,4 +117,20 @@ img {
   top: var(--space-2);
 }
 
+body {
+  background: white;
+  color: #11161d;
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+body.dark {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-primary);
+}
+
 
